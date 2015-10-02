@@ -1,0 +1,22 @@
+@import "partials/settings";
+@import 'foundation/components/grid';
+@import 'foundation/components/buttons';
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+$bright : #eee;
+
+body {
+  background: $bright;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.button-click-me {
+  background-color:black;
+  font-family: 'Press Start 2P', cursive;
+
+  &:hover {
+    background-color:#333;
+    padding: 2rem 3rem 2rem 3rem;
+    transition: all 1s;
+  }
+}
